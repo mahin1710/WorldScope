@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #00bcd4, #caa597); /* Cyan to Brown gradient */
+    color: #5e7ba9; /* Default text color */
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #7bb7be, #b5e57e); /* Green gradient for contrast */
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: white;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(90deg, #7bb7be, #b5e57e); /* Cyan to Brown gradient */
+    text-align: center;
+    padding: 5rem 1rem;
+    color: white;
+}
+
+.hero-section h1 {
+    margin-bottom: 1rem;
+    font-size: 2.8rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+.search-bar {
+    max-width: 600px;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.search-bar .form-control {
+    padding: 1rem;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    border: 2px solid #ffffff;
+}
+
+.btn-gradient {
+    background: linear-gradient(90deg, #8bc34a, #4caf50); /* Green gradient */
+    color: rgb(119, 179, 119);
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(90deg, #4caf50, #8bc34a);
+    transform: scale(1.05);
+}
+
+/* Results Section */
+.results-section {
+    background: rgba(197, 213, 238, 0.9); /* Semi-transparent white background */
+    border-radius: 15px;
+    min-height: 50vh;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    max-width: 300px;
+    width: 100%;
+    background: #93e6ec; /* Card background in white */
+    color: #000000; /* Text color for contrast */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    padding: 15px;
+}
+
+.card-title {
+    color: #795548; /* Brown text */
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(90deg, #795548, #91e2ec); /* Brown to Cyan gradient */
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+/* Loader */
+.text-gradient {
+    background: linear-gradient(90deg, #8bc34a, #4caf50);
+    color: transparent;
+    background-clip: text;
+}
